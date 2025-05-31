@@ -6,6 +6,16 @@
          url('fonts/Lisboa Heavy.eot') format('eot');
 }
 
+@font-face {
+    font-family: 'PS Elliot Pro';
+    src: url('fonts/PSElliotPro.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Faber Sans Pro';
+    src: url('fonts/PSElliotPro.ttf') format('ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +44,7 @@ header .container {
 .main-navigation__list {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 .main-navigation__list a {
@@ -64,6 +74,13 @@ header .container {
 
 .search-bar input {
     color: #B5B5B5;
+    border: none;
+    outline: none;
+    font-family: 'Faber Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
 }
 
 .arrows {
@@ -84,6 +101,7 @@ header .container {
     flex-direction: column;
     align-items: start;
     height: 469px;
+    flex: 1;
 }
 
 .main-content h1 {
@@ -105,6 +123,8 @@ header .container {
     font-size: 18px;
     line-height: 30px;
     white-space: nowrap;
+    font-family: 'PS Elliot Pro', sans-serif;
+    color: #2B2B2B;
 }
 
 .hero-image {
@@ -112,9 +132,12 @@ header .container {
     position: absolute;
     top: 100px;
     right: 0;
+    overflow: hidden;
+    height: 440px;
 }
 
 .hero-image img {
+    max-width: 100%;
     height: 469px;
-    
+    object-fit: cover;
 }
