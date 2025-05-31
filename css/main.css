@@ -23,6 +23,7 @@ header .container {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    height: 70px;
 }
 
 .navbar-logo a {
@@ -39,8 +40,26 @@ header .container {
 .main-navigation__list a {
     text-decoration: none;
     color: #000;
+    font-size: 14px;
+    font-weight: 700;
 }
 
-.main-navigation__list.active {
+.main-navigation__list li.active a {
     color: #00c213;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar i {
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-bar input {
+    color: #B5B5B5;
 }
