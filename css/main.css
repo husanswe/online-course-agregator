@@ -34,7 +34,7 @@ header .container {
 .main-navigation__list {
     list-style-type: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .main-navigation__list a {
@@ -70,10 +70,51 @@ header .container {
     height: 70px;
     display: flex;
     align-items: center;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
 }
 
-.search-bar img {
-    border-left: 1px solid #B5B5B5;
-    border-right: 1px solid #B5B5B5;
-    padding: 0 8px;
+.arrows img {
+    padding: 0 15px;
+}
+
+.main-content {
+    background-color:#F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 469px;
+}
+
+.main-content h1 {
+    padding-top: 146px;
+    padding-left: 122px;
+    height: 94px;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.main-content p {
+    margin-top: 70px;
+    padding-left: 122px;
+    width: 515px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.hero-image {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.hero-image img {
+    height: 469px;
+    
 }
