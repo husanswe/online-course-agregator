@@ -1,6 +1,46 @@
+@font-face {
+    font-family: 'Lisboa Heavy';
+    src: url('fonts/Lisboa Heavy.woff2') format('woff2'),
+         url('fonts/Lisboa Heavy.woff') format('woff'),
+         url('fonts/Lisboa Heavy.ttf') format('ttf'),
+         url('fonts/Lisboa Heavy.eot') format('eot');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Lisboa Heavy', sans-serif;
+    max-width: 1920px;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar-logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-navigation__list {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.main-navigation__list a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-navigation__list.active {
+    color: #00c213;
+}
