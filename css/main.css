@@ -171,28 +171,30 @@ header .container {
     justify-content: center;
     align-items: center;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 100%;
     white-space: nowrap;
-    padding-top: 52px;
+    padding-top: 3.25rem;
 }
 
 .advantages .container {
     display: flex;
     justify-content: space-around;
     padding-top: 72px;
+    gap: 30px;
 }
 
 .advantage-item {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 350px;
 }
 
 .advantage-item img {
     width: 60px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .advantage-item h3 {
@@ -201,10 +203,26 @@ header .container {
     font-size: 20px;
     line-height: 27px;
     color: #2B2B2B;
-    white-space: wrap;
-    display: flex;
 }
 
-.content {
+.h-2 {
+    max-width: 122px;
+}
+
+.h-3 {
+    max-width: 89px;
+}
+
+.content,
+.content-2 {
     padding-top: 25px;
+    font-weight: 400;
+    font-size: 'FS Elliot Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7E7E7E;
+}
+
+.content-2 p {
+    width: 381px;
 }
