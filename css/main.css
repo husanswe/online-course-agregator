@@ -165,7 +165,7 @@ header .container {
 /* Hero section */
 
 
-/* Section 1 */
+/* Advantages section */
 .advantages {
     height: 408px;
 }
@@ -230,10 +230,10 @@ header .container {
 .content-2 p {
     width: 381px;
 }
-/* Section 1 */
+/* Advantages section */
 
 
-/* Section 2 */
+/* Directions section */
 .directions .container {
     max-width: 1920px;
     margin: 0 auto; 
@@ -272,7 +272,7 @@ header .container {
     font-family: 'FS Elliot Pro', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 48px;
+    line-height: 36px;
     cursor: pointer;
     color: #2B2B2B;
     text-align: left;
@@ -316,4 +316,68 @@ header .container {
     width: 100%;
     justify-self: start;
 }
-/* Section 2 */
+/* Directions section */
+
+
+/* Schools section */
+.schools {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.schools h2 {
+    color: #2B2B2B;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 2.6875rem;
+    height: 2.4375rem;
+}
+
+.school-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.school-card {
+    width: 287px;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: 0 4px 26px 0 rgba(203, 203, 203, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netology {
+    padding-left: 40px;
+}
+
+.slider-left {
+    position: relative;
+    right: 42px;
+}
+
+.slider-right {
+    position: relative;
+    left: 75px;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.grey-dot .active {
+    color: #00c213;
+} 
+/* Schools section */
