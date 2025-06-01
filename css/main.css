@@ -170,7 +170,7 @@ header .container {
     height: 408px;
 }
 
-.advantages h1 {
+.advantages h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,18 +234,17 @@ header .container {
 
 
 /* Section 2 */
-.direction .container {
+.directions .container {
     max-width: 1920px;
-    margin: 0 auto;
-    padding: 0 20px; 
+    margin: 0 auto; 
 }
 
-.direction {
+.directions {
     padding: 3.125rem 0;
     background-color: #f8f8f8;
 }
 
-.direction h1 {
+.directions h2 {
     font-weight: 900;
     font-size: 1.875rem;
     line-height: 100%;
@@ -259,6 +258,7 @@ header .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.25rem;
+    width: 100%;
 }
 
 .direction-column {
@@ -272,5 +272,15 @@ header .container {
     line-height: 48px;
     cursor: pointer;
     color: #2B2B2B;
+}
+
+.direction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 0.875rem;
+    color: #666;
+    cursor: pointer;
 }
 /* Section 2 */
