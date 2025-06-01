@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: 'PS Elliot Pro';
-    src: url('fonts/PSElliotPro.otf') format('otf');
+    src: url('fonts/FS Elliot ProRegular.otf') format('otf');
 }
 
 @font-face {
     font-family: 'Faber Sans Pro';
-    src: url('fonts/PSElliotPro.ttf') format('ttf');
+    src: url('fonts/FaberSansPro66reduced.ttf') format('ttf');
 }
 
 * {
@@ -44,7 +44,7 @@ header .container {
 .main-navigation__list {
     list-style-type: none;
     display: flex;
-    gap: 25px;
+    gap: 50px;
 }
 
 .main-navigation__list a {
@@ -58,6 +58,11 @@ header .container {
     color: #00c213;
 }
 
+.main-navigation__list a:hover {
+    color: #00c213;
+    transition: all 0.3s ease-in-out;
+}
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -66,10 +71,11 @@ header .container {
     height: 70px;
 }
 
-.search-bar i {
+.search-bar img {
     color: #B5B5B5;
     font-size: 20px;
     cursor: pointer;
+    margin: 0 10px;
 }
 
 .search-bar input {
@@ -80,7 +86,13 @@ header .container {
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    letter-spacing: 1px;
+}
+
+.text-input {
+    width: 419px;
+    height: 70px;
+    border-right: 1px solid #ededed;
+    display: flex;
 }
 
 .arrows {
