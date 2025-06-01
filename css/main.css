@@ -256,17 +256,17 @@ header .container {
 
 .direction-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 1.25rem;
     width: 100%;
     margin-top: 3.68rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-left: 70px;
 }
 
 .direction-column-1 {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
     padding: 10px 15px;
     font-family: 'FS Elliot Pro', sans-serif;
@@ -282,7 +282,6 @@ header .container {
 .direction-column {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
     padding: 0px;
     font-family: 'FS Elliot Pro', sans-serif;
@@ -294,6 +293,7 @@ header .container {
     text-align: left;
     width: 280px;
     white-space: nowrap;
+    background-color: white;
 }
 
 .direction-item-1 {
@@ -301,6 +301,7 @@ header .container {
     font-weight: 700;
     width: 100%;
     padding-left: 0.89rem;
+    background-color: white;
 }
 
 .direction-item {
