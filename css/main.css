@@ -30,6 +30,10 @@ body {
     width: 100%;
 }
 
+.container {
+    margin: 0 auto;
+}
+
 header .container {
     display: flex;
     justify-content: space-around;
@@ -226,3 +230,47 @@ header .container {
 .content-2 p {
     width: 381px;
 }
+/* Section 1 */
+
+
+/* Section 2 */
+.direction .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.direction {
+    padding: 3.125rem 0;
+    background-color: #f8f8f8;
+}
+
+.direction h1 {
+    font-weight: 900;
+    font-size: 1.875rem;
+    line-height: 100%;
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direction-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+}
+
+.direction-column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    cursor: pointer;
+    color: #2B2B2B;
+}
+/* Section 2 */
