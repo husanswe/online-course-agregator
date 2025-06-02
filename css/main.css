@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'PS Elliot Pro';
+    font-family: 'FS Elliot Pro';
     src: url('fonts/FS Elliot ProRegular.otf') format('otf');
 }
 
@@ -432,10 +432,11 @@ header .container {
     flex-direction: row;
     justify-content: space-around; 
     align-items: center;
-    width: 1750px;
+    width: 1500px;
     height: 150px;
     box-shadow: 0 9px 15px 0 rgba(226, 226, 226, 0.25);
     margin-top: 33px;
+    border: 1px solid #f0f0f0;
 }
 
 .course-item h3 {
@@ -445,6 +446,155 @@ header .container {
     color: #2B2B2B;
 }
 
-.
+.school-name p {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.6875rem;
+    color: #b5b5b5;
+}
+
+.course-price .first-price {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.6875rem;
+    color: #b5b5b5;
+    text-decoration: line-through;
+}
+
+.course-price h4 {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: #2B2B2B;
+}
+
+.rub {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.6875rem;
+    color: #2B2B2B;
+}
+
+.installment {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.6875rem;
+    color: #00C213;
+}
+
+.installment span {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.6875rem;
+    color: #00C213;
+}
+
+.course-time {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.course-time img {
+    width: 17px;
+    height: 17px;
+}
+
+.course-time p {
+    text-align: left;
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+}
+
+.course-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.course-info-list {
+    list-style: none;
+}
+
+.chart {
+    width: 13px;
+    height: 13px;
+}
+
+.info-item {
+    padding-top: 8px;
+}
+
+.info-item img {
+    margin-right: 15px;
+}
+
+.course-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 20px;
+}
+
+.green-btn {
+    width: 134px;
+    height: 37px;
+    border-radius: 100px;
+    background-color: #01E45C;
+    border: none;
+
+}
+
+.green-btn a {
+    color: #fff;
+    font-family: 'FS Elliot Pro', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+}
+
+.white-btn {
+    width: 134px;
+    height: 36px;
+    border-radius: 100px;
+    border: 1px solid #2b2b2b;
+    background-color: #fff;
+}
+
+.white-btn a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+}
+
+.comparison-txt {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.675rem;
+    line-height: 1.5rem;
+    color: #8C8C8C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-top: 5px;
+}
 
 /* Popular online courses section */
