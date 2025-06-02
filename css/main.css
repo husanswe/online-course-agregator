@@ -597,4 +597,28 @@ header .container {
     margin-top: 5px;
 }
 
+.see-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 71px;
+}
+
+.see-more-btn button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #D7D7D7;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.see-more-btn a {
+    text-decoration: none;
+    color: #8C8C8C;
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+}
 /* Popular online courses section */
