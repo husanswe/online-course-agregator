@@ -357,18 +357,22 @@ header .container {
     align-items: center;
 }
 
+.school-card .geekbrains {
+    padding-left: 30px;
+}
+
 .netology {
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 .slider-left {
     position: relative;
-    right: 42px;
+    right: 55px;
 }
 
 .slider-right {
     position: relative;
-    left: 75px;
+    left: 60px;
 }
 
 .carousel-dots {
@@ -384,6 +388,42 @@ header .container {
 
 
 /* Popular online courses section */
+.popular-courses h2 {
+    font-weight: 900;
+    font-size: 1.875rem;
+    line-height: 100%;
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 2rem;
+    list-style: none;
+    height: 35px;
+    border-radius: 50px;
+}
 
+.categories .li {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 2.25rem;
+}
+
+.categories .active {
+    border-radius: 40px;
+    background-color: #00c213;
+    color: white;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Popular online courses section */
