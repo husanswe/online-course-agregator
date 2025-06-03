@@ -418,7 +418,7 @@ header .container {
 
 .categories .active {
     border-radius: 40px;
-    background-color: #00c213;
+    background-color: #01e45c;
     color: white;
     width: 100px;
     height: 35px;
@@ -427,7 +427,7 @@ header .container {
     align-items: center;
 }
 
-.course-item {
+.course-item-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
@@ -436,6 +436,18 @@ header .container {
     height: 150px;
     box-shadow: 0 9px 15px 0 rgba(226, 226, 226, 0.25);
     margin-top: 33px;
+    border: 1px solid #f0f0f0;
+}
+
+.course-item {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    width: 1500px;
+    height: 150px;
+    box-shadow: 0 9px 15px 0 rgba(226, 226, 226, 0.25);
     border: 1px solid #f0f0f0;
 }
 
@@ -622,3 +634,110 @@ header .container {
     line-height: 1.5rem;
 }
 /* Popular online courses section */
+
+
+/* Blog section */
+.blogs h2 {
+    font-weight: 900;
+    font-size: 1.875rem;
+    line-height: 100%;
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-items {
+    display: flex;
+    justify-content: center;
+    gap: 1.375rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.blog-item {
+    width: 384px;
+    height: 389px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 4px 26px 0px rgba(188, 188, 188, 0.25);
+    
+}
+
+.blog-item__top {
+    height: 207px;
+    background-color: #F2F2F2;
+    display: flex;
+    position: relative;
+}
+
+.blog-item__top p {
+    width: 10.625rem;
+    height: 1.5rem;
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 700;
+    font-size: 0.625rem;
+    line-height: 100%;
+    color: #FFFFFF;
+    border-radius: 100px;
+    background-color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 26px;
+    left: 29px;
+}
+
+.blog-item__bottom {
+    width: 384px;
+    height: 182px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.blog-item__text {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #2B2B2B;
+    display: flex;
+    position: absolute;
+    top: 24px;
+    left: 28px;
+}
+
+.blog-item__date {
+    font-family: 'FS Elliot Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 100%;
+    color: #8C8C8C;
+    display: flex;
+    position: absolute;
+    top: 128px;
+    left: 28px;
+}
+
+.blog-item__bottom button {
+    width: 115px;
+    height: 33px;
+    border-radius: 100px;
+    border: 1px solid #D7D7D7;
+    background-color: #FFF;
+    position: absolute;
+    top: 118px;
+    right: 33px;
+}
+
+.blog-item__bottom a {
+    text-decoration: none;
+    color: #B5B5B5;
+    font-family: 'FS Elliot Pro', sans-serif;
+}
+
+/* Blog section */
