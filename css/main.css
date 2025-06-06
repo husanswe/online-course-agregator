@@ -850,25 +850,49 @@ hr {
 
 
     /* Header section */
+    html {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
     header .container {
         max-width: 768px;
         width: 100%;
         height: 77px;
         padding: 0px 0px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         border: 1px solid #EDEDED;
+    }
+
+    .navbar-logo h3 {
+        padding-left: 16px;
+    }
+
+    .main-navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .main-navigation__list {
         width: 446px;
         height: 18px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 27.55px;
+        white-space: nowrap;
     }
 
     .arrows {
         width: 71px;
         display: flex;
         justify-content: center;
+        align-items: center;
+        border-left: 1px solid #ededed;
+        border-right: 1px solid #ededed;
     }
 
     .text-input{
@@ -876,9 +900,26 @@ hr {
     }
 
     .search-bar {
-        width: 142px;
-        content: url('/images/loupe-bold.png');
+        width: 143px;
+        height: 77px;
+        display: flex;
+        justify-content: center;
+    }
 
+    .search-bar img:nth-child(1) { /* 2_arrows.png */
+        display: block;
+    }
+
+    .search-bar img:nth-child(2) { /* loupe.png */
+        content: url('/images/loupe-bold.png');
+        width: 20px;
+        height: 20px;
+    }
+
+    .arrows img {
+        height: 38.29px;
+        width: auto;
+        padding: 0 15px;
     }
 }
 
