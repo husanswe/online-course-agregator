@@ -960,13 +960,17 @@ hr {
 
     .hero-image {
         display: flex;
-        width: 50%;
-        height: 100%;
-        overflow: hidden;
+        width: 80%;
+        height: 369px;
+        position: relative;
     }
 
     .hero-image img {
         height: 100%;
         object-fit: contain;
+        position: absolute;
+        top: -50px;
+        left: 80px;
+        overflow: hidden;
     }
 }
