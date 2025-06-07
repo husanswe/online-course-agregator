@@ -839,7 +839,6 @@ hr {
 /* Footer section */
 
 
-/* Media Queries */
 @media only screen and (max-width: 768px) {
     html {
         max-width: 768px;
@@ -847,7 +846,6 @@ hr {
         margin: 0px auto;
         overflow-x: hidden;
     }
-
 
     /* Header section */
     html {
@@ -921,7 +919,53 @@ hr {
         width: auto;
         padding: 0 15px;
     }
+
+    /* Hero section */
+    .main-section {
+        display: flex;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: flex-start;
+    } 
+
+    .main-content h1 {
+        width: 507px;
+        height: 89px;
+        padding-left: 14px;
+        padding-top: 67px;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2B2B2B;
+        display: flex;
+    }
+
+    .main-content p {
+        position: relative;
+        width: 352px;
+        height: 123.6px;
+        padding-left: 16px;
+        padding-top: 13px;
+        font-family: 'FS Elliot Pro', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 28px;
+        color: #2B2B2B;
+    }
+
+    .hero-image {
+        position: absolute;
+        right: -70px;
+        top: 250px; 
+        
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        width: 400px;
+        height: 320px;
+        overflow: hidden;
+    }
 }
-
-
-/* Media Queries */
