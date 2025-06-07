@@ -119,8 +119,11 @@ header .container {
 
 
 /* Hero section */
-.main-content {
+.main-section {
     background-color:#F8F8F8;
+}
+
+.main-content {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -916,56 +919,54 @@ hr {
 
     .arrows img {
         height: 38.29px;
-        width: auto;
-        padding: 0 15px;
+        width: 31px;
+        padding: 0;
+        margin: 0;
     }
 
     /* Hero section */
     .main-section {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 369px;
     }
 
     .main-content {
-        display: flex;
-        justify-content: flex-start;
+        max-width: 50%;
     } 
 
     .main-content h1 {
-        width: 507px;
-        height: 89px;
+        padding-top: 120px;
         padding-left: 14px;
-        padding-top: 67px;
         font-weight: 900;
         font-size: 36px;
         line-height: 44px;
         color: #2B2B2B;
-        display: flex;
+        white-space: normal;
     }
 
     .main-content p {
-        position: relative;
-        width: 352px;
-        height: 123.6px;
-        padding-left: 16px;
-        padding-top: 13px;
         font-family: 'FS Elliot Pro', sans-serif;
+        max-width: 352px;
+        padding-top: 40px;
+        padding-left: 16px;
         font-weight: 400;
         font-size: 1rem;
         line-height: 28px;
         color: #2B2B2B;
+        white-space: normal;
     }
 
     .hero-image {
-        position: absolute;
-        right: -70px;
-        top: 250px; 
-        
+        display: flex;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
     }
 
     .hero-image img {
-        max-width: 100%;
-        width: 400px;
-        height: 320px;
-        overflow: hidden;
+        height: 100%;
+        object-fit: contain;
     }
 }
