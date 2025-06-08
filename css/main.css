@@ -935,10 +935,14 @@ hr {
 
     .main-content {
         max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Matnni chapga tekislash uchun */
+        justify-content: center;
     } 
 
     .main-content h1 {
-        padding-top: 120px;
+        padding-top: 0;
         padding-left: 14px;
         font-weight: 900;
         font-size: 36px;
@@ -949,14 +953,17 @@ hr {
 
     .main-content p {
         font-family: 'FS Elliot Pro', sans-serif;
-        max-width: 352px;
-        padding-top: 40px;
+        width: 352px;
+        height: 124px;
+        padding-top: 15px;
         padding-left: 16px;
+        margin-top: 0;
         font-weight: 400;
         font-size: 1rem;
         line-height: 28px;
         color: #2B2B2B;
         white-space: normal;
+        
     }
 
     .hero-image {
