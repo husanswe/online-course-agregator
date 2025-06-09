@@ -185,6 +185,7 @@ header .container {
     line-height: 100%;
     white-space: nowrap;
     padding-top: 3.25rem;
+    color: #2B2B2B;
 }
 
 .advantages .container {
@@ -982,4 +983,17 @@ hr {
         top: -35px;
         left: 70px;
     }
+
+    /* Advantages section */
+    .advantages {
+        height: 530px;
+    }
+
+    .advantages h2 {
+        padding-top: 3.125rem;
+    }
+
+    .advantages .container {
+        display: grid;
+        
 }
