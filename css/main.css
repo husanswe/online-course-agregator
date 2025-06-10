@@ -188,27 +188,33 @@ header .container {
     color: #2B2B2B;
 }
 
-.advantages .container {
+.grid-container {
     display: flex;
     justify-content: space-around;
     padding-top: 72px;
     gap: 30px;
 }
 
-.advantage-item {
+.grid-item-1,
+.grid-item-2,
+.grid-item-3 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     max-width: 350px;
 }
 
-.advantage-item img {
+.grid-item-1 img,
+.grid-item-2 img,
+.grid-item-3 img {
     width: 60px;
     height: auto;
     margin-right: 30px;
 }
 
-.advantage-item h3 {
+.grid-item-1 h3,
+.grid-item-2 h3,
+.grid-item-3 h3 {
     font-weight: 700;
     font-family: 'FS Elliot Pro', sans-serif;
     font-size: 20px;
@@ -993,7 +999,30 @@ hr {
         padding-top: 3.125rem;
     }
 
-    .advantages .container {
+    .grid-container {
         display: grid;
-        
+        grid-template-areas: "item1 item2"
+                             "item3 .";
+    }
+
+    .grid-item-1 {
+        width: 339px;
+        height: 162px;
+    }
+
+    .grid-item-2 {
+        width: 309px;
+        height: 186px;
+    }
+
+    .grid-item-3 {
+        width: 286px;
+        height: 162px;
+    }
+
+    .icon-1 {
+        width: 45px;
+        height: 36px;
+        margin-right: 20px;
+    }
 }
