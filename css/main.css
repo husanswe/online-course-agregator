@@ -267,6 +267,7 @@ header .container {
     align-items: center;
 }
 
+
 .directions__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -858,12 +859,6 @@ hr {
     }
 
     /* Header section */
-    html {
-        max-width: 768px;
-        width: 100%;
-        margin: 0 auto;
-    }
-
     header .container {
         max-width: 768px;
         width: 100%;
@@ -1054,5 +1049,40 @@ hr {
     }
 
     /* Directions section */
+    .directions {
+        width: 100%;
+    }
 
+    .directions h2 {
+        height: 39px;
+    }
+
+    .directions__grid {
+        display: grid;
+    }
+
+    .direction-column-1 {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px;
+        gap: 22px;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .direction-item.active {
+        font-weight: 700;
+        font-size: 0.875rem;
+        line-height: 2.25rem;
+        width: 181px;
+        height: 40px;
+        border-radius: 50px;
+        padding: 10px 23px;
+        background-color: #01E45C;
+        color: #fff;
+    }
+
+    .direction-item {
+        padding: 0px 15px;
+    }
 }
