@@ -267,7 +267,7 @@ header .container {
     align-items: center;
 }
 
-.direction-grid {
+.directions__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 1.25rem;
@@ -309,7 +309,7 @@ header .container {
     background-color: white;
 }
 
-.direction-item-1 {
+.direction-item.active {
     font-family: 'FS Elliot Pro', sans-serif;
     font-weight: 700;
     width: 100%;
@@ -1052,4 +1052,7 @@ hr {
     .content-2 {
         padding-top: 18px;
     }
+
+    /* Directions section */
+
 }
