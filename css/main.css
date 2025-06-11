@@ -1058,7 +1058,9 @@ hr {
     }
 
     .directions__grid {
+        max-width: 768px;
         display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 ta teng ustun */
     }
 
     .direction-column-1 {
@@ -1070,6 +1072,10 @@ hr {
         margin-bottom: 15px;
     }
 
+    .direction-column {
+        box-sizing: border-box; /* Padding va marginni hisobga oladi */
+        padding: 10px;
+    }
     .direction-item.active {
         font-weight: 700;
         font-size: 0.875rem;
@@ -1083,6 +1089,6 @@ hr {
     }
 
     .direction-item {
-        padding: 0px 15px;
+        
     }
 }
