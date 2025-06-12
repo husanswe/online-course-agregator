@@ -1072,10 +1072,6 @@ hr {
         margin-bottom: 15px;
     }
 
-    .direction-column {
-        box-sizing: border-box; /* Padding va marginni hisobga oladi */
-        padding: 10px;
-    }
     .direction-item.active {
         font-weight: 700;
         font-size: 0.875rem;
@@ -1088,7 +1084,7 @@ hr {
         color: #fff;
     }
 
-    .direction-item {
-        
+    .direction-column {
+        display: contents;
     }
 }
