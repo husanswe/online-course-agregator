@@ -269,6 +269,8 @@ header .container {
 
 
 .directions__grid {
+    max-width: 1920px;
+    margin: 0 auto; 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 1.25rem;
@@ -279,7 +281,7 @@ header .container {
 }
 
 .direction-column-1 {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     padding: 10px 15px;
@@ -294,7 +296,7 @@ header .container {
 }
 
 .direction-column {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     padding: 0px;
@@ -1059,14 +1061,14 @@ hr {
 
     .directions__grid {
         max-width: 768px;
-        display: grid;
         grid-template-columns: repeat(2, 1fr); /* 2 ta teng ustun */
+        gap: 10px;
     }
 
     .direction-column-1 {
         display: flex;
         flex-direction: row;
-        padding: 0px 0px;
+        padding: 0;
         gap: 22px;
         height: 40px;
         margin-bottom: 15px;
@@ -1086,5 +1088,18 @@ hr {
 
     .direction-column {
         display: contents;
+    }
+
+    .direction-item {
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        gap: 0px;
+    }
+
+    .direction-item img {
+        
     }
 }
