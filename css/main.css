@@ -1103,8 +1103,6 @@ hr {
     }
 
     .direction-item img {
-        margin-left: 10px; /* Rasm va matn orasidagi masofa */
-        max-width: 20px; /* Rasm o'lchami */
         height: auto;
     }
 }
