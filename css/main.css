@@ -1053,6 +1053,7 @@ hr {
     /* Directions section */
     .directions {
         width: 100%;
+        overflow: hidden;
     }
 
     .directions h2 {
@@ -1060,9 +1061,11 @@ hr {
     }
 
     .directions__grid {
+        display: grid;
         max-width: 768px;
         grid-template-columns: repeat(2, 1fr); /* 2 ta teng ustun */
-        gap: 10px;
+        gap: 5px;
+        overflow: hidden;
     }
 
     .direction-column-1 {
@@ -1092,14 +1095,16 @@ hr {
 
     .direction-item {
         display: flex;
-        max-width: 100%;
-        justify-content: space-between;
+        max-width: 270px;
+        width: 100%;
         align-items: center;
+        box-sizing: border-box;
         padding: 0;
-        gap: 0px;
     }
 
     .direction-item img {
-        
+        margin-left: 10px; /* Rasm va matn orasidagi masofa */
+        max-width: 20px; /* Rasm o'lchami */
+        height: auto;
     }
 }
